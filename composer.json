@@ -1,0 +1,28 @@
+{
+    "name": "unal/video-modal",
+    "type": "typo3-cms-extension",
+    "description": "Extension para desplegar un video al entrar en una pagina",
+    "authors": [
+        {
+            "name": "Camilo Neiva",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "UNAL\\VideoModal\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UNAL\\VideoModal\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "video_modal": "self.version",
+        "typo3-ter/video-modal": "self.version"
+    }
+}
